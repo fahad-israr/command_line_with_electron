@@ -14,7 +14,8 @@
           console.log(output);
       });
       
-      
+ 
  #### The file [`main.js`](https://github.com/fahad-israr/command_line_with_electron/blob/master/main.js) demonstrates an example.
 
+--------------------------------------------------------------------------------------------------------------
 #### More at: https://discuss.atom.io/t/execute-shell-commands-from-application/20013 
