@@ -1,6 +1,8 @@
 # executing command line codes with electron JS
 ## We are using  `node child_process`
 
+Insert the following in main.js file:
+
         const exec = require('child_process').exec;
 
       function execute(command, callback) {
