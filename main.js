@@ -52,8 +52,9 @@ function run_script(command, args, callback) {
         callback();
 }
 
-/* Now, we can execute arbitary command (the example is from windows command prompt, but the funtion is universal) by calling:
-   `run_script("dir", ["/A /B /C"], null);`
-  The parameters of our command are in fact an array ["/A /B /C"], and the last parameter is callback to be executed, we can provide null as parameter, if special callback function is not needed.
+// Now, we can execute arbitary command (the example is from windows command prompt, but the funtion is universal) by calling:
+  
+  run_script("dir", ["/A /B /C"], null);
 
-*/
+  //  The parameters of our command are in fact an array ["/A /B /C"], and the last parameter is callback to be executed, we can provide null as parameter, if special callback function is not needed.
+
